@@ -33,7 +33,7 @@
 }
 
 - (void)initUI {
-    self.myPhotoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2 - 670/2, self.view.frame.size.height/2 - 758/2, 670, 758)];
+    self.myPhotoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2 - 300/2, self.view.frame.size.height/2 - 300/2, 300, 300)];
     self.myPhotoImageView.contentMode = UIViewContentModeScaleToFill;
     self.myPhotoImageView.layer.borderWidth = 1;
     self.myPhotoImageView.layer.borderColor = [UIColor lightTextColor].CGColor;
@@ -62,7 +62,7 @@
         
         UIImage *layImg = [UIImage imageNamed:@"icon_face"];
         
-        UIImageView *overLayImg = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2 - 230/2, self.view.frame.size.height/2 - 340/2, 230, 340)];
+        UIImageView *overLayImg = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2 - 670/2, self.view.frame.size.height/2 - 758/2, 670, 758)];
         
         overLayImg.image = layImg;
         
